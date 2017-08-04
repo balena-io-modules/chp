@@ -1,0 +1,40 @@
+{
+  "name": "chp",
+  "version": "0.0.0",
+  "description": "CHIP image format",
+  "license": "Apache-2.0",
+  "author": "Jonas Hermsmeier <jhermsmeier@gmail.com> (https://jhermsmeier.de/)",
+  "keywords": [
+    "chip",
+    "chp",
+    "disk",
+    "image",
+    "format"
+  ],
+  "main": "lib/chp.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^3.5.0",
+    "standard": "^10.0.2"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "homepage": "https://github.com/resin-io-modules/chp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/resin-io-modules/chp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/resin-io-modules/chp/issues"
+  },
+  "scripts": {
+    "fix": "standard --fix",
+    "lint": "standard",
+    "test": "mocha"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib",
+    "test": "test"
+  }
+}
